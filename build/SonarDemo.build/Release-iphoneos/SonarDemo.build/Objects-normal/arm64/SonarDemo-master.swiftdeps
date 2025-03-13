@@ -1,0 +1,10 @@
+version: "Apple Swift version 6.0.3 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)"
+options: "e2bdc81f7e524aaebe49ac59c447b2a295016071ecbeb6e00878003cba89f686"
+build_start_time: [1741838822, 375413000]
+build_end_time: [1741838831, 830631000]
+inputs:
+  "/Users/fordtan/Documents/workplace/Projects/SonarDemo/SonarDemo/AppDelegate.swift": [1741834514, 163819697]
+  "/Users/fordtan/Documents/workplace/Projects/SonarDemo/SonarDemo/SceneDelegate.swift": [1741834514, 165961517]
+  "/Users/fordtan/Documents/workplace/Projects/SonarDemo/SonarDemo/ViewController.swift": [1741834514, 167491507]
+  ? "/Users/fordtan/Documents/workplace/Projects/SonarDemo/build/SonarDemo.build/Release-iphoneos/SonarDemo.build/DerivedSources/GeneratedAssetSymbols.swift"
+  : [1741838821, 987454687]

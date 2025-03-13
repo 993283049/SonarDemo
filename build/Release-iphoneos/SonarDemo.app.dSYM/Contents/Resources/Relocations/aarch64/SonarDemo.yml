@@ -1,0 +1,5 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/fordtan/Documents/workplace/Projects/SonarDemo/build/Release-iphoneos/SonarDemo.app/SonarDemo'
+relocations:     []
+...
