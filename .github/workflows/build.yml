@@ -6,13 +6,15 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
-    my-jobs:
-        permissions:
-            contents: read
-            pull_request: write
   build:
     name: Build and analyze
     runs-on: macos-latest
+    # 添加权限配置
+    permissions:
+      actions: read
+      contents: read
+      security-events: write
+      
     env:
       BUILD_WRAPPER_OUT_DIR: build_wrapper_output_directory # Directory where build-wrapper output will be placed
     steps:
