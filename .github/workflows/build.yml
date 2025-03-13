@@ -6,6 +6,10 @@ on:
   pull_request:
     types: [opened, synchronize, reopened]
 jobs:
+    my-jobs:
+        permissions:
+            contents: read
+            pull_request: write
   build:
     name: Build and analyze
     runs-on: macos-latest
