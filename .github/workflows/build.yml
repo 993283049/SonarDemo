@@ -22,10 +22,7 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
-      - name: Set script permissions
-        run: |
-            chmod +x /Users/runner/hostedtoolcache/CodeQL/2.20.6/arm64/codeql/tools/osx64/preload_tracer
-            chmod +x /Users/runner/hostedtoolcache/CodeQL/2.20.6/arm64/codeql/swift/tools/autobuild.sh
+      
     
       - name: Install Build Wrapper
         uses: SonarSource/sonarqube-scan-action/install-build-wrapper@v5
